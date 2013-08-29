@@ -105,10 +105,19 @@
 </layers>
 <board>
 <plain>
-<wire x1="3.81" y1="17.78" x2="56.82" y2="17.78" width="0" layer="20"/>
-<wire x1="56.82" y1="17.78" x2="56.82" y2="77.46" width="0" layer="20"/>
-<wire x1="56.82" y1="77.46" x2="3.81" y2="77.46" width="0" layer="20"/>
-<wire x1="3.81" y1="77.46" x2="3.81" y2="17.78" width="0" layer="20"/>
+<wire x1="3.81" y1="20.32" x2="6.35" y2="17.78" width="0" layer="20"/>
+<wire x1="6.35" y1="17.78" x2="54.534" y2="17.78" width="0" layer="20"/>
+<wire x1="54.534" y1="17.78" x2="57.074" y2="20.32" width="0" layer="20"/>
+<wire x1="57.074" y1="20.32" x2="57.15" y2="20.32" width="0" layer="20"/>
+<wire x1="57.15" y1="20.32" x2="57.074" y2="74.92" width="0" layer="20"/>
+<wire x1="57.074" y1="74.92" x2="57.064" y2="74.93" width="0" layer="20"/>
+<wire x1="57.064" y1="74.93" x2="54.864" y2="74.93" width="0" layer="20"/>
+<wire x1="54.864" y1="74.93" x2="52.324" y2="77.47" width="0" layer="20"/>
+<wire x1="52.324" y1="77.47" x2="19.05" y2="77.47" width="0" layer="20"/>
+<wire x1="19.05" y1="77.47" x2="16.51" y2="74.93" width="0" layer="20"/>
+<wire x1="16.51" y1="74.93" x2="5.09" y2="74.93" width="0" layer="20"/>
+<wire x1="5.09" y1="74.93" x2="3.81" y2="73.65" width="0" layer="20"/>
+<wire x1="3.81" y1="73.65" x2="3.81" y2="20.32" width="0" layer="20"/>
 <text x="17.272" y="49.53" size="1.778" layer="16" font="vector" rot="MR270">AirCasting Shield
 Rev. 1</text>
 </plain>
@@ -490,6 +499,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.355"/>
 </class>
 </classes>
 <designrules name="default *">
